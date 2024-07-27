@@ -1,0 +1,36 @@
+.home-Container{
+    width: 100%;
+    margin: 1rem 0rem;
+    height: 715px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.data-home{
+    margin: 1rem 2rem;
+}
+
+.data-home span{
+    font-size: 20px;
+    color: blue;
+}
+
+.data-home h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.img-home img{
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    mix-blend-mode: darken;
+    border: 4px solid rgb(121, 119, 119);
+    border-radius: 50%;
+}
+
+.data-home .btn{
+    background-color: #308cd4;
+}
+

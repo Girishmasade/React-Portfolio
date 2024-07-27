@@ -1,0 +1,15 @@
+#service{
+    margin: 1rem 2rem;
+}
+
+#service h2{
+    text-align: center;
+}
+
+.row{
+    padding: 2rem 3rem;
+}
+
+.container-serv{
+    width: 99%;   
+}

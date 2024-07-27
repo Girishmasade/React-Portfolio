@@ -1,0 +1,86 @@
+#contact {
+  margin: 1rem 1rem;
+}
+
+.contact-container h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contact-container p {
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  width: 50rem;
+  margin: 1.3rem 24rem;
+  border-radius: 1rem;
+}
+
+.form-Image img {
+  width: 300px;
+}
+
+.form-details {
+  display: flex;
+  gap: 15rem;
+  margin: 5rem 14rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -3rem;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    border: 1px solid gray;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    gap: .7rem;
+}
+
+.form-container p{
+    position: relative;
+    left: 5rem;
+    bottom: -2rem;
+    background-color: #f2f9fc;
+    color: rgb(0, 0, 0);
+    z-index: 999;
+    width: 8.2rem;
+    padding: .3rem .2rem;
+    font-size: 1.3rem;
+}
+
+
+.forms input[type="text"]{
+    border: 1px solid gray;
+    padding: .2rem .4rem;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.forms input[type="email"]{
+    border: 1px solid gray;
+    padding: .2rem .4rem;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+textarea{
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.forms label{
+    font-size: 1.3rem;
+}
+
+.forms input[type="submit"]{
+    font-size: 1rem;
+    background-color: #5B67DD;
+    padding: .2rem .4rem;
+    border-radius: 3px;
+}
